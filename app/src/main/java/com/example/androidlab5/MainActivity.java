@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final Spinner spinner = findViewById(R.id.spinner);
+        spinner.setDropDownVerticalOffset(150);
         VoidFunc func = new VoidFunc() {
             @Override
             public void start() {
